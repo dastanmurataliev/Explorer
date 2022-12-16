@@ -1,0 +1,256 @@
+.wrapper {
+    width: 100vw;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.logo_block {
+    width: 176px;
+    margin: 0 auto;
+}
+
+.menu_links {
+    width: 600px;
+    margin: 52px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_links li {
+    list-style: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu_links li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.menu_links li:hover {
+    border-bottom: 2px solid white;
+}
+
+.luke_inner {
+    height: 330px;
+    background: url("../images/luke.png");
+    position: relative;
+}
+
+.travel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 24px;
+}
+
+.luke_cage {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.luke_name h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.luke_name p {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.luke_text {
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    width: 470px;
+}
+
+.luke_text h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.inner_white_text {
+    background-color: white;
+    padding: 36px 65px 44px;
+}
+
+.inner_white_text a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #8D4FDB;
+}
+
+.inner_white_text p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    width: 664px;
+}
+
+.inner_simpson {
+    height: 330px;
+    background-image: url("../images/simpson.png");
+    position: relative;
+}
+
+.jessica_name h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    width: 600px;
+}
+
+.jessica_name p {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.inner_simpson .jessica_name {
+    margin-left: 15px;
+}
+
+.inner_another {
+    background: url("../images/ded_inside.png");
+    height: 330px;
+    position: relative;
+}
+
+.inner_grey {
+    background: #F1F1F1;
+    height: 210px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.inner_grey h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.inner_grey button {
+    width: 182px;
+    height: 45px;
+    background: #8D4FDB;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.photo {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 100px;
+    height: 25px;
+    background: rgba(0,0,0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo h4 {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.stories {
+    padding: 72px 0 97px 0;
+}
+
+.st_text {
+    text-align: center;
+}
+
+.st_text h2  {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.st_text p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    color: #A9AFB3;
+    margin-top: 25px;
+}
+
+/*-------------*/
+
+.footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8B8B8B;
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8D4FDB;
+    text-decoration: none;
+}
